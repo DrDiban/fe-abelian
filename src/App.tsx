@@ -52,7 +52,9 @@ function App() {
               &times;
             </button>
             <div className="popup-content">
-              <h2>{popUpMessage}</h2>
+              <pre>
+                <h2>{popUpMessage}</h2>
+              </pre>
               <button onClick={closePopup}>OK</button>
             </div>
           </div>
