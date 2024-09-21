@@ -40,9 +40,12 @@ function App() {
 
   return (
     <div className="App">
-      <div>
-        <h1>Count: {counter}</h1>
-        <button onClick={openPopup}>Test</button>
+      <div className="center-container">
+        <div className="box">
+          <h1>Abelminer</h1>
+          <h2 className="count-txt">Count: {counter}</h2>
+          <button onClick={openPopup} className="styled-button">Test</button>
+        </div>
       </div>
       {/* Modal Popup */}
       {showPopup && (
@@ -55,7 +58,7 @@ function App() {
               <pre>
                 <h2>{popUpMessage}</h2>
               </pre>
-              <button onClick={closePopup}>OK</button>
+              <button onClick={closePopup} className="window-button">OK</button>
             </div>
           </div>
         </div>

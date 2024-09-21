@@ -62,16 +62,7 @@
   text-align: center;
 }
 
-/* Close button */
-.close-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 20px;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
+
 
 /* Popup content */
 .popup-content {
@@ -89,4 +80,75 @@
 
 .popup-content button:hover {
   background-color: #0056b3;
+}
+
+.count-txt {
+  color: #ff33cc;
+}
+
+
+.box {
+  background-color: #33e6ff;
+  border: 2px solid black;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.styled-button {
+  background-color: #6d33ff;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.styled-button:hover {
+  background-color: #4933ff;
+}
+
+.window-button {
+  background-color: #008CBA;
+  color: white;
+  padding: 12px 24px;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.window-button:hover {
+  background-color: #005f6b;
+  transform: scale(1.05);
+}
+
+
+/* Close button */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: red;
+  transform: scale(1.1);
+  /* Change color to red on hover */
 }

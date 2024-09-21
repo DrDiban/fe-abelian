@@ -1,5 +1,5 @@
 import axios, { AxiosResponse } from 'axios';
-const REACT_APP_SERVER_URL = 'http://13.251.40.215/api';
+const REACT_APP_SERVER_URL = 'http://13.251.40.215/api';  //'http://localhost:1000' 
 
 const increaseCounterUrl = `${REACT_APP_SERVER_URL}/increaseCounter`;
 const getCounterUrl = `${REACT_APP_SERVER_URL}/getCounter`;
